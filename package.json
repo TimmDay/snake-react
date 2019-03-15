@@ -1,6 +1,9 @@
 {
   "name": "snake-js",
   "version": "0.1.0",
+  "engines": {
+    "node": "8.11.3"
+  },
   "private": true,
   "dependencies": {
     "express": "^4.16.4",
