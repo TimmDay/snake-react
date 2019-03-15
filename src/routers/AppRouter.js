@@ -4,7 +4,7 @@ import createHistory from 'history/createBrowserHistory';
 import Header from '../components/Header';
 import SideBar from './../components/SideBar';
 import SideBarRight from './../components/SideBarRight';
-// import Game from '../components/Game';
+import Game from '../components/Game';
 
 export const history = createHistory();
 
@@ -14,6 +14,7 @@ const AppRouter = () => (
       <Header />
       <main>
       < SideBar />
+      < Game />
       {/* <Switch>
         <Route path="/" component={Game} exact={true} />
       </Switch> */}
