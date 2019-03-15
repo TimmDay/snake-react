@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+textarea:focus, input:focus, button:focus {
+  outline: none;
+}
+
+body {
+  background: $dark-grey;
+  color: #fff;
+  // text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: $font-size-large;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
