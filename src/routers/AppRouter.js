@@ -2,7 +2,7 @@ import React from 'react';
 import { Router, Route, Switch } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
 import Header from '../components/Header';
-import Game from '../components/Game';
+import Snake from '../components/Snake';
 import SideBar from './../components/SideBar';
 import SideBarRight from './../components/SideBarRight';
 
@@ -14,10 +14,9 @@ const AppRouter = () => (
       <Header />
       <main>
       < SideBar />
-      < Game />
-      {/* <Switch>
-        <Route path="/" component={Game} exact={true} />
-      </Switch> */}
+      <Switch>
+        <Route path="/" component={Snake} exact={true} />
+      </Switch>
       < SideBarRight />
       </main>
     </div>
