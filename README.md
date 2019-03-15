@@ -1,4 +1,5 @@
 ## Snake vs the Fizz Buzz
+The first thing that I ever did on the internet was play snake on the nokia website. I wanted to play with html5 canvas with javascript/react so here we are!
 [Here](https://fizz-buzz-snake.herokuapp.com/) :arrow_left: is a deployed version of the game, ready to play.
 
 (it is desktop only, if anyone knows a quick way to map mobile screen taps to desktop arrow keys please let me know).
