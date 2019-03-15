@@ -20,19 +20,19 @@
 //     console.log('heroku server is up');
 // });
 
-const express = require('express');
 const path = require('path');
+const express = require('express');
 const port = process.env.PORT || 8080;
 const app = express();
-// the __dirname is the current directory from where the script is running
-app.use(express.static(__dirname));
-app.use(express.static(path.join(__dirname, 'build')));
-app.get('/ping', function (req, res) {
- return res.send('pong');
+const publicPath = path.join(__dirname, '..', 'public'); //current dir/../public
+const port = process.env.PORT || 3000; //use the heroku set port if available
+
+app.use(express.static(publicPath));
+
+app.get('*', (request, response) => { // * all unmatched routes
+  response.sendFile(path.join(publicPath, 'index.html'));
 });
-app.get('/*', function (req, res) {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
+
 app.listen(port, () => {
-  console.log('heroku server is up');
+  console.log('Server is up');
 });
