@@ -6,16 +6,16 @@ import Snake from './../components/Snake';
 import SideBar from './../components/SideBar';
 import SideBarRight from './../components/SideBarRight';
 
-export const history = createHistory();
+// export const history = createHistory();
 
 const AppRouter = () => (
-  <Router history={history}>
+  <Router>
     <div>
       <Header />
       <main>
       < SideBar />
       <Switch>
-        <Route path="/" component={Snake} exact={true} />
+        <Route path="/" component={Snake} />
       </Switch>
       < SideBarRight />
       </main>
