@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const Header = () => {
-  const numStars = 80;
+  const numStars = 120;
   const getRandomPosition = () => {
     var x = window.innerWidth; //header spans the screen
     var randomX = Math.floor(Math.random() * x);

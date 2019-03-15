@@ -1,13 +1,6 @@
 import React from 'react';
-import { connect } from 'react-redux';
 
-class SideBarRight extends React.Component {
-   constructor(props) {
-       super(props);
-       this.state = {}
-   }
-
-   render () {
+export const SideBarRight = () => {{
     return (
       <div className="side-bar right">
         <p>Eat the red apples to grow the snake</p>
@@ -16,5 +9,4 @@ class SideBarRight extends React.Component {
     )
    }
 }
-
 export default SideBarRight;
