@@ -1,4 +1,4 @@
-## Snake vs the Fizz Buzz Interview question
+## Snake vs the Fizz Buzz
 [Here](https://fizz-buzz-snake.herokuapp.com/) :arrow_left: is a deployed version of the game, ready to play.
 
 (it is desktop only, if anyone knows a quick way to map mobile screen taps to desktop arrow keys please let me know).
