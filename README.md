@@ -3,7 +3,7 @@
 [Here](https://fizz-buzz-snake.herokuapp.com/) :arrow_left: play the game!
 
 
-The first thing that I ever did on the internet was play snake on the nokia website. I wanted to play with html5 canvas with javascript/react so here we are!
+The first thing that I ever did on the internet was play the snake game on the nokia website. Many years later, I wanted to play with html5 canvas and javascript/react... so here we are!
 
 (it is desktop only, if anyone knows a quick way to map mobile screen taps to desktop arrow keys please let me know).
 
